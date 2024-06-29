@@ -5,15 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="tailwind.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
     <title>Document</title>
   </head>
-  <body>
+  <body >
+    <header class="py-6 px-10 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-white ">orcas</h1>
+      <nav>
+          <ul class="flex gap-16">
+              <li><a href="#" class="hover:text-gray-400 text-xl text-white">Home</a></li>
+              <li><a href="#" class="hover:text-gray-400 text-xl text-white">Services</a></li>
+              <li><a href="#" class="hover:text-gray-400 text-xl text-white">About</a></li>
+              <li><a href="/contactUs.html" class="hover:text-gray-400 text-xl text-white">Contact Us</a></li>
+          </ul>
+      </nav>
+  </header>
 
-    <div class="bg-white p-4 shadow-md">
-      <h1 class="text-2xl font-bold text-gray-800">Welcome to My Project</h1>
-      <p class="text-gray-600">This is a simple Tailwind CSS setup!</p>
-      <a href="contactUs.html"></a>
-  </div>
+
+  <main class="px-10">
+
+  
+      <section class="text-center my-20">
+          <h2 class="text-4xl md:text-6xl font-bold mb-4 text-white">World-Class Software Development Company</h2>
+          <p class="text-xl md:text-2xl mb-8 text-customGray">Your trusted Digital Solutions partner</p>
+          <button class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded text-white">Learn More</button>
+      </section>
+
+      <section class="my-20">
+          <h3 class="text-3xl md:text-4xl font-bold mb-10 text-left text-white">Where We Turned Ideas Into Reality</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    
+              <div class="bg-gray-800 p-4 rounded">
+                  <img src="path/to/image1.jpg" alt="Project 1" class="mb-4 rounded w-full h-40 object-cover">
+                  <p class="text-center text-customGray">Description of your first project</p>
+              </div>
+           
+              <div class="bg-gray-800 p-4 rounded">
+                  <img src="path/to/image2.jpg" alt="Project 2" class="mb-4 rounded w-full h-40 object-cover">
+                  <p class="text-center text-customGray">Description of your second work</p>
+              </div>
+           
+              <div class="bg-gray-800 p-4 rounded">
+                  <img src="path/to/image3.jpg" alt="Project 3" class="mb-4 rounded w-full h-40 object-cover">
+                  <p class="text-center text-customGray">Description of your third creation</p>
+              </div>
+         
+              <div class="bg-gray-800 p-4 rounded">
+                  <img src="path/to/image4.jpg" alt="Project 4" class="mb-4 rounded w-full h-40 object-cover">
+                  <p class="text-cente text-customGray">Description of your fourth endeavor</p>
+              </div>
+          </div>
+      </section>
+
+ 
+      <section class="my-20">
+          <h3 class="text-3xl md:text-4xl font-bold mb-10 text-center text-white">What We Do</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+              <div>
+                  <h4 class="text-xl font-bold mb-4 text-customGray">Web Development</h4>
+                  <p class="text-customGray">At Jorca, we create dynamic websites and web applications that bring your ideas to reality.</p>
+              </div>
+              <div>
+                  <h4 class="text-xl font-bold mb-4 text-customGray">Custom Software Development</h4>
+                  <p class="text-customGray">We specialize in developing custom software solutions that cater to your business needs.</p>
+              </div>
+              <div>
+                  <h4 class="text-xl font-bold mb-4 text-customGray">Mobile App Development</h4>
+                  <p class="text-customGray">We build user-friendly mobile applications for various platforms, ensuring seamless performance.</p>
+              </div>
+              <div>
+                  <h4 class="text-xl font-bold mb-4 text-customGray">Consulting and Advisory Services</h4>
+                  <p class="text-customGray">Our consulting services provide you with the expertise to tackle complex IT challenges and guide your business strategy.</p>
+              </div>
+          </div>
+      </section>
+
+      <section class="my-20">
+          <h3 class="text-3xl md:text-4xl font-bold mb-10 text-left text-white">Reviews</h3>
+          <p class="text-customGray">Subheading to introduce testimonials</p>
+          <div class="flex space-x-6 justify-center">
+              <div class="bg-gray-800 p-4 rounded text-center w-1/3">
+                  <p>"A terrific piece of work!"</p>
+                  <p class="mt-4 text-sm text-gray-400">- John Doe</p>
+              </div>
+              <div class="bg-gray-800 p-4 rounded text-center w-1/3">
+                  <p>"Fantastic bit of feedback!"</p>
+                  <p class="mt-4 text-sm text-gray-400">- Jane Smith</p>
+              </div>
+              <div class="bg-gray-800 p-4 rounded text-center w-1/3">
+                  <p>"I'm genuinely glowing inside!"</p>
+                  <p class="mt-4 text-sm text-gray-400">- Someone Else</p>
+              </div>
+          </div>
+      </section>
+  </main>
+
+
+  <footer class="bg-gray-900 py-10 px-10 text-center">
+      <p class="text-white">&copy; 2024 Jorca. All rights reserved.</p>
+      <div class="flex justify-center space-x-4 mt-4">
+          <a href="#"><img src="path/to/facebook-icon.png" alt="Facebook" class="h-6"></a>
+          <a href="#"><img src="path/to/twitter-icon.png" alt="Twitter" class="h-6"></a>
+          <a href="#"><img src="path/to/instagram-icon.png" alt="Instagram" class="h-6"></a>
+      </div>
+  </footer>
 
 
     <script src="script.js"></script>

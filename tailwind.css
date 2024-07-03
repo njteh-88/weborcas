@@ -75,6 +75,19 @@ body {
 
 }
 
+
+header {
+  background-color: #000000;
+  padding: 50px 80px 50px 80px;
+}
+
+
+.fahkwang-medium {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
@@ -116,11 +129,6 @@ h6 {
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
-
-header {
-  background-color: #000000;
-  padding: 50px 8 0px 50px 80px;
-}
 
 a {
   color: inherit;

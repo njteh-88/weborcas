@@ -1,17 +1,3 @@
-.fahkwang-medium {
-    font-family: "Fahkwang", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 150%;
-}
-
-
-.fahkwang-regular {
-    font-family: "Fahkwang", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .text-slogan {
     font-size: 64px;
     line-height: auto;
@@ -23,5 +9,28 @@
     font-size: 40px;
     line-height: 110%;
     letter-spacing: 0rem;
-
 }
+
+.text-advantages {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0rem;
+}
+
+
+.custom-footer {
+    background-color: #282828;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.custom-footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.gradient-button {
+    background: linear-gradient(135deg, rgb(13, 22, 57), rgb(91, 135, 193));
+  }

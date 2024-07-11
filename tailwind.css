@@ -69,7 +69,7 @@ html,
 
 body {
   margin: 0 auto;
-  padding: 50px 80px 50px 80px;
+  padding: 50px 80px 0px 80px;
   line-height: inherit;
   background-color: #000000;
 
@@ -86,13 +86,43 @@ header {
   font-family: "Fahkwang", sans-serif;
   font-weight: 500;
   font-style: normal;
+  line-height: 130%;
 }
 
-/*
-1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
-3. Ensure horizontal rules are visible by default.
-*/
+
+.fahkwang-regular {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-medium-16{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.inter-medium-20{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+.inter-regular-24{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+
+.inter-regular{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
 
 hr {
   height: 0;

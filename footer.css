@@ -1,0 +1,13 @@
+
+
+.footer {
+    min-height: 215px;
+    flex: 1;
+}
+
+
+.footer-logo {
+    min-height: 100%;
+    justify-content: space-between;
+}
+

@@ -13,6 +13,6 @@ function loadContent(id, url) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadContent('header', 'header/header.html');
+    loadContent('header', 'header.html');
     loadContent('footer', 'footer.html');
 });

@@ -86,7 +86,6 @@ header {
   font-family: "Fahkwang", sans-serif;
   font-weight: 500;
   font-style: normal;
-  line-height: 130%;
 }
 
 
@@ -95,6 +94,7 @@ header {
   font-weight: 400;
   font-style: normal;
 }
+
 
 .inter-medium-16{
     font-family: "Inter", sans-serif;

@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './index.html',
+    './contactUs.html',
     './index.css',
     './tailwind.css',
   ],

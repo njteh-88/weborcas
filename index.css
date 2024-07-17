@@ -5,6 +5,8 @@
     margin: 0 auto;
 }
 
+
+
 .text-slogan-contact{
     font-family: "Fahkwang", sans-serif;
     font-size: 64px;
@@ -86,5 +88,14 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 input[type=number] {
-    -moz-appearance: textfield; /* Hide arrows in Firefox */
+    -moz-appearance: textfield; 
+}
+
+
+.border-custom {
+    border: 1px solid #423e3e;
+}
+
+.team-member-card {
+    background-color: #191818;
 }

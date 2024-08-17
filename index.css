@@ -1,10 +1,19 @@
 .text-slogan {
-    font-size: 64px;
-    line-height: auto;
+    font-size: 2.5rem; /* 32px for mobile */
+    line-height: 1.2;
     letter-spacing: -0.02em;
     margin: 0 auto;
 }
-
+@media (min-width: 768px) {
+    .text-slogan {
+        font-size: 3.75rem; /* 60px for tablets */
+    }
+}
+@media (min-width: 1024px) {
+    .text-slogan {
+        font-size: 4rem; /* 64px for desktops */
+    }
+}
 
 
 .text-slogan-contact{
@@ -18,10 +27,22 @@
 }
 
 .text-examples {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 110%;
     letter-spacing: 0rem;
 }
+
+@media (min-width: 768px) {
+    .text-examples {
+        font-size: 35px; 
+    }
+}
+@media (min-width: 1024px) {
+    .text-examples {
+        font-size: 40px; 
+    }
+}
+
 
 .text-advantages {
     font-size: 20px;
@@ -96,6 +117,33 @@ input[type=number] {
     border: 1px solid #423e3e;
 }
 
+.border-custom-services {
+    border: 1px solid #838080;
+    border-radius: 8px;
+}
+
 .team-member-card {
     background-color: #191818;
+}
+
+.navbarW{
+    width: 600px;
+}
+#logo {
+    width: 181px;
+    height: 56px;
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 150px; 
+        height: auto;
+    }
+    #menu-btn {
+        padding: 0.5rem;
+    }
+    #menu-btn svg {
+        width: 2rem;
+        height: 2rem;
+    }
 }

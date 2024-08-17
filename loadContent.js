@@ -1,10 +1,13 @@
-function loadContent(id, url) {
+function loadContent(id, url, callback) {
     fetch(url)
         .then(response => response.text())
         .then(data => {
             const element = document.getElementById(id);
             if (element) {
                 element.innerHTML = data;
+                if (callback) {
+                    callback();
+                }
             } else {
                 console.error(`Element with ID ${id} not found.`);
             }
@@ -13,6 +16,6 @@ function loadContent(id, url) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadContent('header', 'header.html');
+    loadContent('header', 'header.html', initializeMenu);
     loadContent('footer', 'footer.html');
 });
